@@ -34,7 +34,7 @@ To run this project, install it locally using npm:
 
 ```
 $ cd ../FOODVISION
-$ pip install requirement.txt
+$ pip install -r requirement.txt
 $ streamlit run app.py
 ```
 
@@ -66,7 +66,7 @@ As we are dealing with a complex Neural Network (EfficientNetB1) its a good prac
    - **ReduceLROnPlateau :** Reduce learning rate when a metric has stopped improving.
 
 Applied transfer learning to build a  [Fine Tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)  Model
-> Again if you want to dive deeper on how the model was trained check out **[`model-training.ipynb`](https://github.com/princewilling) Notebook**
+> Again if you want to dive deeper on how the model was trained check out **[`model-training.ipynb`](https://github.com/princewilling/Food_Vision_101/blob/main/modeling.ipynb) Notebook**
 
 #### Model Results
 * Training accuracy, weighted recall, weighted precision, and weighted F1 scores were all .82

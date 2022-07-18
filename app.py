@@ -107,15 +107,15 @@ Deployed on Streanlit app
 
 st.title("Food Vision 101 🍔 🥘 🍲 📷 🔭")
 st.header("Curious!! to know what kind of food is in an image? Let food vision 101 help you out.")
-st.write("To know more about this app, visit [**GitHub**](https://github.com/princewilling)")
+st.write("To know more about this app, visit [**GitHub**](https://github.com/princewilling/Food_Vision_101)")
 file = st.file_uploader(label="Upload an image of food.",
                         type=["jpg", "jpeg", "png"])
 
 
-model = tf.keras.models.load_model("./models/FinalModel.hdf5")
+model = tf.keras.models.load_model("./models/EfficientNetB1.hdf5")
 
 
-st.sidebar.markdown("Created by **Princewill Inyang**")
+st.sidebar.markdown("Created by **Princewill Victor Inyang**")
 st.sidebar.markdown(body="""
 
 <th style="border:None"><a href="https://linkedin.com/in/princewill-inyang-6b07021b0" target="blank"><img align="center" src="https://bit.ly/3wCl82U" alt="gauravreddy08" height="40" width="40" /></a></th>
