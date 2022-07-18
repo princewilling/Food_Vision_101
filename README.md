@@ -40,9 +40,9 @@ $ streamlit run app.py
 
 ## Illustration
 ---some gif video-----
+- ...coming soon
 
 # Build Up
-
 ### Dataset
 The dataset used for this project is available on tensorflow datasets(tfds) collections. Someone else went through the hard work of cleaning and compiling the image dataset into tensors. so that I didn't have to. The dataset included 101 classes of food with about 1000+ training images of each classes. Although class imbalance did exist in the training data, it did not substantially affect the model performance.
 
